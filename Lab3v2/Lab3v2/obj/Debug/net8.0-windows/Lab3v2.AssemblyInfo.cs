@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LAB3test")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lab3v2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a7ddebbc57243392e9b272761df65c077c6e734")]
-[assembly: System.Reflection.AssemblyProductAttribute("LAB3test")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LAB3test")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lab3v2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lab3v2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
 

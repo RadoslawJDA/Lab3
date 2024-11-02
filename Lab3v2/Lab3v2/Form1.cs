@@ -66,5 +66,15 @@ namespace Lab3v2
 
             MessageBox.Show(result, "Lista S³ów");
         }
+
+        private void buttonTest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonQuit_Click(object sender, EventArgs e) 
+        {
+            Application.Exit();
+        }
     }
 }

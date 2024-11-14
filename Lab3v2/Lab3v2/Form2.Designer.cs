@@ -76,7 +76,7 @@
             // checkBoxReverse
             // 
             checkBoxReverse.AutoSize = true;
-            checkBoxReverse.Location = new Point(494, 61);
+            checkBoxReverse.Location = new Point(88, 64);
             checkBoxReverse.Name = "checkBoxReverse";
             checkBoxReverse.Size = new Size(142, 24);
             checkBoxReverse.TabIndex = 5;

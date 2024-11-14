@@ -25,7 +25,7 @@ namespace Lab3v2
                 {"morze", "sea"},
                 {"jezioro", "lake"},
                 {"góry", "mountains"},
-                {"miasto", "city"}
+                {"miasto", "city"},
                 {"wioska", "village"}
             };
         }
@@ -71,7 +71,11 @@ namespace Lab3v2
 
         private void buttonTest_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Test test = new Test(wordDictionary);
+            test.ShowDialog();
+            test = null;
+            this.Show();
         }
 
         private void buttonQuit_Click(object sender, EventArgs e) 

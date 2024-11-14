@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GITHUB\\Lab3\\Lab3v2\\",
+  "WorkspaceRootPath": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|d:\\github\\lab3\\lab3v2\\lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|c:\\users\\clank\\documents\\github\\lab3\\lab3v2\\lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|D:\\GITHUB\\Lab3\\Lab3v2\\lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|c:\\users\\clank\\documents\\github\\lab3\\lab3v2\\lab3v2\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|d:\\github\\lab3\\lab3v2\\lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|c:\\users\\clank\\documents\\github\\lab3\\lab3v2\\lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|D:\\GITHUB\\Lab3\\Lab3v2\\lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|c:\\users\\clank\\documents\\github\\lab3\\lab3v2\\lab3v2\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1FF39C17-6C00-4718-BEFC-85A30E9C013B}|Lab3v2\\Lab3v2.csproj|solutionrelative:lab3v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
               "RelativeDocumentMoniker": "Lab3v2\\Form1.cs",
-              "ToolTip": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
+              "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
               "RelativeToolTip": "Lab3v2\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:00:02.024Z",
               "IsPinned": true,
@@ -45,24 +53,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab3v2\\Form1.cs",
-              "ToolTip": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs [Projekt]",
-              "RelativeToolTip": "Lab3v2\\Form1.cs [Projekt]",
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Test.cs",
+              "RelativeDocumentMoniker": "Lab3v2\\Test.cs",
+              "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Test.cs",
+              "RelativeToolTip": "Lab3v2\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T15:13:37.343Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-11-14T17:20:38.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
               "RelativeDocumentMoniker": "Lab3v2\\Form2.cs",
-              "ToolTip": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
+              "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
               "RelativeToolTip": "Lab3v2\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T16:01:55.921Z",
               "EditorCaption": ""
@@ -70,12 +79,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Test.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Test.cs",
+              "RelativeDocumentMoniker": "Lab3v2\\Test.cs",
+              "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Test.cs [Projekt]",
+              "RelativeToolTip": "Lab3v2\\Test.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:19:40.013Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs",
+              "RelativeDocumentMoniker": "Lab3v2\\Form1.cs",
+              "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form1.cs [Projekt]",
+              "RelativeToolTip": "Lab3v2\\Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:13:37.343Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Projekt]",
-              "DocumentMoniker": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs",
               "RelativeDocumentMoniker": "Lab3v2\\Form2.cs",
               "ToolTip": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Form2.cs [Projekt]",
+              "RelativeToolTip": "Lab3v2\\Form2.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T16:01:35.81Z"
+              "WhenOpened": "2024-11-02T16:01:35.81Z",
+              "EditorCaption": " [Projekt]"
             }
           ]
         }

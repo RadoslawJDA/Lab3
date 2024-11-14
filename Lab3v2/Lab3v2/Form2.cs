@@ -15,10 +15,12 @@ namespace Lab3v2
     {
         private Dictionary<string, string> wordDictionary;
         private KeyValuePair<string, string> currentWord;
-        public Form2(Dictionary<string, string> dictionary)
+        private Form1 parentForm;
+        public Form2(Dictionary<string, string> dictionary, Form1 parent)
         {
             InitializeComponent();
             wordDictionary = dictionary;
+            parentForm = parent;
             LoadNewWord();
         }
         private void LoadNewWord()
@@ -54,32 +56,36 @@ namespace Lab3v2
         private void buttonCheck_Click(object sender, EventArgs e)
         {
             string answer = textBoxAnswer.Text.Trim();
+            string historyEntry;
 
             if (checkBoxReverse.Checked)
             {
-                // Sprawdzanie w trybie angielski -> polski
                 if (answer.Equals(currentWord.Key, StringComparison.OrdinalIgnoreCase))
                 {
                     MessageBox.Show("Dobrze!", "Wynik");
+                    historyEntry = $"{currentWord.Value} -> {currentWord.Key} (poprawnie)";
                 }
                 else
                 {
                     MessageBox.Show($"Błąd. Poprawna odpowiedź to: {currentWord.Key}", "Wynik");
+                    historyEntry = $"{currentWord.Value} -> {currentWord.Key} (błędnie: {answer})";
                 }
             }
             else
             {
-                // Sprawdzanie w trybie polski -> angielski
                 if (answer.Equals(currentWord.Value, StringComparison.OrdinalIgnoreCase))
                 {
                     MessageBox.Show("Dobrze!", "Wynik");
+                    historyEntry = $"{currentWord.Key} -> {currentWord.Value} (poprawnie)";
                 }
                 else
                 {
                     MessageBox.Show($"Błąd. Poprawna odpowiedź to: {currentWord.Value}", "Wynik");
+                    historyEntry = $"{currentWord.Key} -> {currentWord.Value} (błędnie: {answer})";
                 }
             }
 
+            parentForm.AddToHistory(historyEntry); // dodajemy wpis do historii
             LoadNewWord(); // Wczytujemy nowe słowo do przetłumaczenia
         }
     

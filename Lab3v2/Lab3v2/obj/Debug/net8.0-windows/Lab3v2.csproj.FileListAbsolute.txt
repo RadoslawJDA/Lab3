@@ -35,3 +35,4 @@ D:\GITHUB\Lab3\Lab3v2\Lab3v2\obj\Debug\net8.0-windows\Lab3v2.pdb
 D:\GITHUB\Lab3\Lab3v2\Lab3v2\obj\Debug\net8.0-windows\Lab3v2.genruntimeconfig.cache
 D:\GITHUB\Lab3\Lab3v2\Lab3v2\obj\Debug\net8.0-windows\ref\Lab3v2.dll
 C:\Users\clank\Documents\GitHub\Lab3\Lab3v2\Lab3v2\obj\Debug\net8.0-windows\Lab3v2.Test.resources
+D:\GITHUB\Lab3\Lab3v2\Lab3v2\obj\Debug\net8.0-windows\Lab3v2.Test.resources

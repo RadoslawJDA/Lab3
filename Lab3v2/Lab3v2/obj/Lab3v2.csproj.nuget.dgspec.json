@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj": {}
+    "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj": {
+    "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
+        "projectUniqueName": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
         "projectName": "Lab3v2",
-        "projectPath": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
-        "packagesPath": "C:\\Users\\clank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\obj\\",
+        "projectPath": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -14,6 +14,7 @@ namespace Lab3v2
                 {"pies", "dog"},
                 {"dom", "house"},
                 {"samochód", "car"},
+                {"zabójca", "killer"},
                 {"ksi¹¿ka", "book"},
                 {"krzes³o", "chair"},
                 {"stó³", "table"},

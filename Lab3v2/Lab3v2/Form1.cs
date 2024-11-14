@@ -26,6 +26,7 @@ namespace Lab3v2
                 {"jezioro", "lake"},
                 {"góry", "mountains"},
                 {"miasto", "city"}
+                {"wioska", "village"}
             };
         }
 

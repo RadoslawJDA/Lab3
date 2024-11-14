@@ -41,10 +41,10 @@
             // 
             // labelMenuTitle
             // 
-            labelMenuTitle.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelMenuTitle.Location = new Point(262, 34);
+            labelMenuTitle.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            labelMenuTitle.Location = new Point(241, 9);
             labelMenuTitle.Name = "labelMenuTitle";
-            labelMenuTitle.Size = new Size(142, 28);
+            labelMenuTitle.Size = new Size(329, 92);
             labelMenuTitle.TabIndex = 0;
             labelMenuTitle.Text = "Learn English";
             labelMenuTitle.TextAlign = ContentAlignment.MiddleCenter;
@@ -56,10 +56,9 @@
             buttonLearn.FlatStyle = FlatStyle.Flat;
             buttonLearn.Font = new Font("Segoe UI", 13.8F);
             buttonLearn.ForeColor = Color.Snow;
-            buttonLearn.Location = new Point(248, 70);
-            buttonLearn.Margin = new Padding(3, 2, 3, 2);
+            buttonLearn.Location = new Point(303, 141);
             buttonLearn.Name = "buttonLearn";
-            buttonLearn.Size = new Size(155, 52);
+            buttonLearn.Size = new Size(177, 69);
             buttonLearn.TabIndex = 1;
             buttonLearn.Text = " Learn";
             buttonLearn.UseVisualStyleBackColor = false;
@@ -72,10 +71,9 @@
             buttonTest.FlatStyle = FlatStyle.Flat;
             buttonTest.Font = new Font("Segoe UI", 13.8F);
             buttonTest.ForeColor = SystemColors.ButtonHighlight;
-            buttonTest.Location = new Point(248, 128);
-            buttonTest.Margin = new Padding(3, 2, 3, 2);
+            buttonTest.Location = new Point(550, 141);
             buttonTest.Name = "buttonTest";
-            buttonTest.Size = new Size(155, 52);
+            buttonTest.Size = new Size(177, 164);
             buttonTest.TabIndex = 2;
             buttonTest.Text = "Test";
             buttonTest.UseVisualStyleBackColor = false;
@@ -88,10 +86,9 @@
             buttonWords.FlatStyle = FlatStyle.Flat;
             buttonWords.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
             buttonWords.ForeColor = SystemColors.ButtonHighlight;
-            buttonWords.Location = new Point(535, 162);
-            buttonWords.Margin = new Padding(3, 2, 3, 2);
+            buttonWords.Location = new Point(31, 141);
             buttonWords.Name = "buttonWords";
-            buttonWords.Size = new Size(155, 52);
+            buttonWords.Size = new Size(177, 69);
             buttonWords.TabIndex = 3;
             buttonWords.Text = "Dictionary";
             buttonWords.UseVisualStyleBackColor = false;
@@ -100,13 +97,12 @@
             // checkBoxReverse
             // 
             checkBoxReverse.AutoSize = true;
-            checkBoxReverse.Font = new Font("Century Gothic", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            checkBoxReverse.Location = new Point(544, 9);
-            checkBoxReverse.Margin = new Padding(3, 2, 3, 2);
+            checkBoxReverse.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            checkBoxReverse.Location = new Point(31, 360);
             checkBoxReverse.Name = "checkBoxReverse";
-            checkBoxReverse.Size = new Size(141, 24);
+            checkBoxReverse.Size = new Size(251, 41);
             checkBoxReverse.TabIndex = 4;
-            checkBoxReverse.Text = "english -> polish";
+            checkBoxReverse.Text = "English > Polish";
             checkBoxReverse.UseVisualStyleBackColor = true;
             // 
             // buttonQuit
@@ -116,10 +112,9 @@
             buttonQuit.FlatStyle = FlatStyle.Flat;
             buttonQuit.Font = new Font("Segoe UI", 13.8F);
             buttonQuit.ForeColor = SystemColors.ButtonHighlight;
-            buttonQuit.Location = new Point(535, 276);
-            buttonQuit.Margin = new Padding(3, 2, 3, 2);
+            buttonQuit.Location = new Point(611, 370);
             buttonQuit.Name = "buttonQuit";
-            buttonQuit.Size = new Size(155, 52);
+            buttonQuit.Size = new Size(177, 69);
             buttonQuit.TabIndex = 5;
             buttonQuit.Text = "Quit";
             buttonQuit.UseVisualStyleBackColor = false;
@@ -132,10 +127,9 @@
             buttonHistory.FlatStyle = FlatStyle.Flat;
             buttonHistory.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
             buttonHistory.ForeColor = SystemColors.ButtonHighlight;
-            buttonHistory.Location = new Point(535, 219);
-            buttonHistory.Margin = new Padding(3, 2, 3, 2);
+            buttonHistory.Location = new Point(303, 236);
             buttonHistory.Name = "buttonHistory";
-            buttonHistory.Size = new Size(155, 52);
+            buttonHistory.Size = new Size(177, 69);
             buttonHistory.TabIndex = 6;
             buttonHistory.Text = "History";
             buttonHistory.UseVisualStyleBackColor = false;
@@ -148,10 +142,9 @@
             buttonAdd.FlatStyle = FlatStyle.Flat;
             buttonAdd.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
             buttonAdd.ForeColor = SystemColors.ButtonHighlight;
-            buttonAdd.Location = new Point(535, 106);
-            buttonAdd.Margin = new Padding(3, 2, 3, 2);
+            buttonAdd.Location = new Point(31, 236);
             buttonAdd.Name = "buttonAdd";
-            buttonAdd.Size = new Size(155, 52);
+            buttonAdd.Size = new Size(177, 69);
             buttonAdd.TabIndex = 7;
             buttonAdd.Text = "Add Words";
             buttonAdd.UseVisualStyleBackColor = false;
@@ -159,10 +152,10 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(200, 214, 229);
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 451);
             Controls.Add(buttonAdd);
             Controls.Add(buttonHistory);
             Controls.Add(buttonQuit);
@@ -171,8 +164,7 @@
             Controls.Add(buttonTest);
             Controls.Add(buttonLearn);
             Controls.Add(labelMenuTitle);
-            FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

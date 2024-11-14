@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\clank\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
+      "projectUniqueName": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
       "projectName": "Lab3v2",
-      "projectPath": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\GITHUB\\Lab3\\Lab3v2\\Lab3v2\\obj\\",
+      "projectPath": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\Lab3v2.csproj",
+      "packagesPath": "C:\\Users\\clank\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clank\\Documents\\GitHub\\Lab3\\Lab3v2\\Lab3v2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clank\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

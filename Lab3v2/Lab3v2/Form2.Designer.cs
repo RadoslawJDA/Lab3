@@ -38,10 +38,10 @@
             // labelMenuTitle
             // 
             labelMenuTitle.Dock = DockStyle.Top;
-            labelMenuTitle.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelMenuTitle.Font = new Font("Sans Serif Collection", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelMenuTitle.Location = new Point(0, 0);
             labelMenuTitle.Name = "labelMenuTitle";
-            labelMenuTitle.Size = new Size(800, 37);
+            labelMenuTitle.Size = new Size(800, 88);
             labelMenuTitle.TabIndex = 1;
             labelMenuTitle.Text = "Learn";
             labelMenuTitle.TextAlign = ContentAlignment.MiddleCenter;
@@ -50,43 +50,57 @@
             // labelWord
             // 
             labelWord.AutoSize = true;
-            labelWord.Location = new Point(270, 65);
+            labelWord.Dock = DockStyle.Top;
+            labelWord.Font = new Font("Century Gothic", 18F);
+            labelWord.Location = new Point(0, 88);
             labelWord.Name = "labelWord";
-            labelWord.Size = new Size(50, 20);
+            labelWord.Size = new Size(105, 37);
             labelWord.TabIndex = 2;
             labelWord.Text = "label1";
+            labelWord.TextAlign = ContentAlignment.TopCenter;
             // 
             // textBoxAnswer
             // 
-            textBoxAnswer.Location = new Point(270, 124);
+            textBoxAnswer.BorderStyle = BorderStyle.None;
+            textBoxAnswer.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            textBoxAnswer.Location = new Point(297, 165);
+            textBoxAnswer.Multiline = true;
             textBoxAnswer.Name = "textBoxAnswer";
-            textBoxAnswer.Size = new Size(125, 27);
+            textBoxAnswer.Size = new Size(179, 57);
             textBoxAnswer.TabIndex = 3;
+            textBoxAnswer.Text = "test";
             // 
             // buttonCheck
             // 
-            buttonCheck.Location = new Point(270, 190);
+            buttonCheck.BackColor = Color.YellowGreen;
+            buttonCheck.FlatAppearance.BorderSize = 0;
+            buttonCheck.FlatStyle = FlatStyle.Flat;
+            buttonCheck.Font = new Font("Segoe UI", 13.8F);
+            buttonCheck.ForeColor = Color.Cornsilk;
+            buttonCheck.Location = new Point(297, 277);
             buttonCheck.Name = "buttonCheck";
-            buttonCheck.Size = new Size(94, 29);
+            buttonCheck.Size = new Size(177, 69);
             buttonCheck.TabIndex = 4;
             buttonCheck.Text = "Check";
-            buttonCheck.UseVisualStyleBackColor = true;
+            buttonCheck.UseVisualStyleBackColor = false;
             buttonCheck.Click += buttonCheck_Click;
             // 
             // checkBoxReverse
             // 
             checkBoxReverse.AutoSize = true;
-            checkBoxReverse.Location = new Point(88, 64);
+            checkBoxReverse.Font = new Font("Segoe UI", 18F);
+            checkBoxReverse.Location = new Point(536, 393);
             checkBoxReverse.Name = "checkBoxReverse";
-            checkBoxReverse.Size = new Size(142, 24);
+            checkBoxReverse.Size = new Size(249, 45);
             checkBoxReverse.TabIndex = 5;
-            checkBoxReverse.Text = "english -> polish";
+            checkBoxReverse.Text = "English > Polish";
             checkBoxReverse.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(200, 214, 229);
             ClientSize = new Size(800, 450);
             Controls.Add(checkBoxReverse);
             Controls.Add(buttonCheck);

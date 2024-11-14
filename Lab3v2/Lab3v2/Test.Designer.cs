@@ -38,63 +38,70 @@
             // checkBoxReverse
             // 
             checkBoxReverse.AutoSize = true;
-            checkBoxReverse.Location = new Point(134, 52);
-            checkBoxReverse.Margin = new Padding(3, 2, 3, 2);
+            checkBoxReverse.Font = new Font("Century Gothic", 18F);
+            checkBoxReverse.Location = new Point(43, 388);
             checkBoxReverse.Name = "checkBoxReverse";
-            checkBoxReverse.Size = new Size(115, 19);
+            checkBoxReverse.Size = new Size(251, 41);
             checkBoxReverse.TabIndex = 9;
-            checkBoxReverse.Text = "english -> polish";
+            checkBoxReverse.Text = "English > Polish";
             checkBoxReverse.UseVisualStyleBackColor = true;
             // 
             // buttonCheck
             // 
-            buttonCheck.Location = new Point(293, 146);
-            buttonCheck.Margin = new Padding(3, 2, 3, 2);
+            buttonCheck.BackColor = Color.YellowGreen;
+            buttonCheck.FlatAppearance.BorderSize = 0;
+            buttonCheck.FlatStyle = FlatStyle.Flat;
+            buttonCheck.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            buttonCheck.ForeColor = Color.Cornsilk;
+            buttonCheck.Location = new Point(309, 251);
             buttonCheck.Name = "buttonCheck";
-            buttonCheck.Size = new Size(82, 22);
+            buttonCheck.Size = new Size(177, 69);
             buttonCheck.TabIndex = 8;
             buttonCheck.Text = "Check";
-            buttonCheck.UseVisualStyleBackColor = true;
+            buttonCheck.UseVisualStyleBackColor = false;
             buttonCheck.Click += buttonCheck_Click_1;
             // 
             // textBoxAnswer
             // 
-            textBoxAnswer.Location = new Point(293, 97);
-            textBoxAnswer.Margin = new Padding(3, 2, 3, 2);
+            textBoxAnswer.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            textBoxAnswer.Location = new Point(253, 149);
+            textBoxAnswer.Multiline = true;
             textBoxAnswer.Name = "textBoxAnswer";
-            textBoxAnswer.Size = new Size(110, 23);
+            textBoxAnswer.Size = new Size(297, 73);
             textBoxAnswer.TabIndex = 7;
             // 
             // labelWord
             // 
             labelWord.AutoSize = true;
-            labelWord.Location = new Point(293, 53);
+            labelWord.Font = new Font("Century Gothic", 18F);
+            labelWord.Location = new Point(335, 83);
             labelWord.Name = "labelWord";
-            labelWord.Size = new Size(38, 15);
+            labelWord.Size = new Size(105, 37);
             labelWord.TabIndex = 6;
             labelWord.Text = "label1";
             // 
             // labelCounter
             // 
             labelCounter.AutoSize = true;
-            labelCounter.Location = new Point(38, 27);
+            labelCounter.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 238);
+            labelCounter.Location = new Point(12, 9);
             labelCounter.Name = "labelCounter";
-            labelCounter.Size = new Size(13, 15);
+            labelCounter.Size = new Size(32, 38);
             labelCounter.TabIndex = 10;
             labelCounter.Text = "1";
             labelCounter.Click += labelCounter_Click;
             // 
             // Test
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            BackColor = Color.FromArgb(200, 214, 229);
+            ClientSize = new Size(800, 451);
             Controls.Add(labelCounter);
             Controls.Add(checkBoxReverse);
             Controls.Add(buttonCheck);
             Controls.Add(textBoxAnswer);
             Controls.Add(labelWord);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Test";
             Text = "Test";
             Load += Test_Load;
